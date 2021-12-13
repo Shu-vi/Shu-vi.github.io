@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Melody</title>
+    <link rel="stylesheet" href="/normalize.css">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="content-bar">
+            <div class="logo-bar">
+                <img src="/logo.svg" alt="Логотип" class="logo">
+            </div>
+            <div class="navigation-bar">
+                <ul class="menu">
+                    <li class="navigation-menu-item">
+                        <a href="#" class="menu-item first-item">Подобрать <br>квартиру</a>
+                        <a href="#" class="menu-item">Забронировать <br>квартиру</a>
+                        <a href="#" class="menu-item">Ход <br>строительства</a>
+                        <a href="#" class="menu-item last-item">Квартирная <br>деклорация</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="contact-bar">
+                <span class="contact-text">Закажите звонок:</span>
+                <a href="tel:+78431234567" class="contact">8 (843) 123-45-67</a>
+            </div>
+        </div>
+    </header>
+    <div class="main">
+        <div class="main-home">
+<!--            картинка дома-->
+            <svg class="img-home" width="734" height="640" viewBox="0 0 734 640" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <rect width="734" height="640" fill="url(#pattern0)"/>
+                <defs>
+                    <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+                        <use xlink:href="#image0_1_86" transform="translate(-0.00408719) scale(0.0013624 0.0015625)"/>
+                    </pattern>
+                    <image id="image0_1_86" width="740" height="640" xlink:href="home.svg"/>
+                </defs>
+                <path data-floor="02" d="M222 538L442.8 546L512 532.3V554L443.5 573.7L222 562.7V538Z" fill="#3595F6" fill-opacity="0.75"/>
+                <path data-floor="03" d="M223 537V512L443.3 515.3L513 512V532L443.7 545L223 537Z" fill="#3595F6" fill-opacity="0.75"/>
+                <path data-floor="04" d="M223 511V486H444H513V509L445 516L223 511Z" fill="#3595F6" fill-opacity="0.75"/>
+                <path data-floor="05" d="M223 487V462L444.3 458.3L512 465V487H444" fill="#3595F6" fill-opacity="0.75"/>
+                <path data-floor="06" d="M223 461V435L444.5 431.7L513 442.7V464L444 457.3L223 461Z" fill="#3595F6" fill-opacity="0.75"/>
+                <path data-floor="07" d="M222 434V410.3L443 398L514 421V442.3L443 430L222 434Z" fill="#3595F6" fill-opacity="0.75"/>
+                <path data-floor="08" d="M222 412V387L444.2 370.7L514 399.3V420L443.7 398.3L222 412Z" fill="#3595F6" fill-opacity="0.75"/>
+                <path data-floor="09" d="M222 387V362L444.5 341.7L514 378.3V399L442 370.3L222 387Z" fill="#3595F6" fill-opacity="0.75"/>
+                <path data-floor="10" d="M222 361V337L445 312.3L514 356.3V378L444.7 340L222 361Z" fill="#3595F6" fill-opacity="0.75"/>
+                <path data-floor="11" d="M222 336V312L444.5 283.3L514 334.3V355L443.7 312.7L222 336Z" fill="#3595F6" fill-opacity="0.75"/>
+                <path data-floor="12" d="M221 312V288L443.3 255L514 314.3V334L444 283.3L221 312Z" fill="#3595F6" fill-opacity="0.75"/>
+                <path data-floor="13" d="M222 287V263L443.2 228L513 292V313L444.3 254.7L222 287Z" fill="#3595F6" fill-opacity="0.75"/>
+                <path data-floor="14" d="M222 263V238L444.3 200L513 270.3V291L444 227L222 263Z" fill="#3595F6" fill-opacity="0.75"/>
+                <path data-floor="15" d="M222 237V212L442.8 168.3L513 247.3V270L444 196.7L222 237Z" fill="#3595F6" fill-opacity="0.75"/>
+                <path data-floor="16" d="M223 213V188L443 140L513 225V248L442.3 168.7L223 213Z" fill="#3595F6" fill-opacity="0.75"/>
+                <path data-floor="17" d="M222 188V163L441.8 111L513 203.3V226L443.3 139.7L222 188Z" fill="#3595F6" fill-opacity="0.75"/>
+                <path data-floor="18" d="M222 163V137L444 80.3L513 182V203L443.7 111.3L222 163Z" fill="#3595F6" fill-opacity="0.75"/>
+            </svg>
+        </div>
+        <div class="main-content">
+            <h2 class="main-title">Выберите желаемый этаж</h2>
+            <div class="context-select-level">
+                <button class="level-up button-level">
+                    <img src="/buttonImage.svg" alt="Верхний этаж" class="button-up">
+                </button>
+                <p class="level-text">06</p>
+                <button class="level-down button-level">
+                    <img src="/buttonImage.svg" alt="Нижний этаж" class="button-down">
+                </button>
+            </div>
+            <button class="main-button">Смотреть квартиры на этаже</button>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-info">
+                <div class="footer-logo">
+                    <img src="/footer-logo.svg" alt="logo">
+                </div>
+                <div class="footer-contacts">
+                    <p class="footer-contacts-text">Закажите звонок:</p>
+                    <a href="tel:+78431234567" class="footer-tel">8 (843) 123-45-67</a>
+                </div>
+                <div class="footer-socials">
+                    <a href="#" class="footer-social">
+                        <img src="/facebook.svg" alt="facebook" class="social-img">
+                    </a>
+                    <a href="#" class="footer-social">
+                        <img src="/instagram.svg" alt="instagram" class="social-img">
+                    </a>
+                    <a href="#" class="footer-social">
+                        <img src="/twitter.svg" alt="twitter" class="social-img">
+                    </a>
+                    <a href="#" class="footer-social">
+                        <img src="/youtube.svg" alt="youtube" class="social-img">
+                    </a>
+                </div>
+            </div>
+            <div class="footer-condition">
+                <a href="" class="footer-links">123</a>
+                <a href="" class="footer-links"></a>
+                <a href="" class="footer-links"></a>
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="/Main.js"></script>
+</body>
+</html>

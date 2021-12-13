@@ -1,0 +1,161 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+/*Шапка*/
+.header{
+    background-color: #635854;
+    padding-bottom: 12px;
+    padding-top: 12px;
+    border-bottom: #3596F5 4px solid;
+}
+
+.content-bar{
+    max-width: 1280px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.navigation-menu-item{
+    display: flex;
+}
+.menu{
+    margin: 0;
+}
+.menu-item{
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+    margin: 0 40px 0 40px;
+}
+.first-item{
+    margin-left: 0;
+}
+.last-item{
+    margin-right: 0;
+}
+.navigation-menu-item{
+    list-style: none;
+}
+.contact-bar{
+    text-align: right;
+}
+.contact-text{
+    color: #fff;
+    display: flex;
+    margin: 0 0 4px 0;
+}
+.contact{
+    color: #fff;
+    text-decoration: none;
+}
+/*Основная часть*/
+.main{
+    display: flex;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 54px 0 95px 0;
+}
+
+.img-home path{
+    opacity: 0;
+}
+.img-home path:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+
+path.current-floor{
+    opacity: 1;
+}
+
+.main-content{
+    flex-grow: 1;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 68px;
+    margin-bottom: 63px;
+}
+.main-title{
+    font-family: "Georgia", sans-serif;
+    font-size: 37px;
+    line-height: 44px;
+    font-weight: 100;
+    color: #635854
+}
+
+.button-down{
+    transform: rotateX(180deg);
+}
+.button-level{
+    border: none;
+    background-color: #fff;
+    cursor: pointer;
+}
+.button-level:hover{
+
+}
+
+.level-text{
+    font-size: 56px;
+    color: #635854;;
+}
+.main-button{
+    background-color: #3596F5;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 16px 36px;
+    cursor: pointer;
+}
+/*Подвал*/
+.footer{
+    background-color: #D7D7D7;
+    max-height: 175px;
+    border-top: #3596F5 solid 4px;
+    display: flex;
+    height: 171px;
+}
+.footer-content{
+    max-width: 1280px;
+    margin: auto;
+    flex-grow: 1;
+    justify-content: space-between;
+    display: flex;
+}
+.footer-info{
+    display: flex;
+}
+.footer-contacts{
+    text-align: left;
+    margin: auto 0;
+}
+.footer-contacts-text{
+    color: #635854;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: normal;
+}
+.footer-tel{
+    color: #635854;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+}
+.footer-social{
+    text-decoration: none;
+}
+.footer-socials{
+    margin: auto 0;
+}
