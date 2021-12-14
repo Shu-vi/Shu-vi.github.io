@@ -34,6 +34,10 @@ body{
     text-align: center;
     margin: 0 40px 0 40px;
 }
+.menu-item:hover{
+    background-color: #3596F5;
+    transition-duration: .6s;
+}
 .first-item{
     margin-left: 0;
 }
@@ -100,9 +104,12 @@ path.current-floor{
     border: none;
     background-color: #fff;
     cursor: pointer;
+    opacity: 0.75;
 }
 .button-level:hover{
-
+    transition-duration: .5s;
+    border: #3596F5 solid 2px;
+    opacity: 1;
 }
 
 .level-text{
@@ -137,7 +144,7 @@ path.current-floor{
 }
 .footer-contacts{
     text-align: left;
-    margin: auto 0;
+    margin: auto 64px auto 0;
 }
 .footer-contacts-text{
     color: #635854;
@@ -158,4 +165,20 @@ path.current-floor{
 }
 .footer-socials{
     margin: auto 0;
+}
+.footer-logo{
+    margin-right: 39px;
+}
+.footer-condition{
+    display: flex;
+}
+.footer-links{
+    color: #635854;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    margin: auto 0;
+}
+.footer-link-middle{
+    margin: auto 23px;
 }
